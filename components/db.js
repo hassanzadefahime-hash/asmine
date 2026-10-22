@@ -1,0 +1,82 @@
+export const arr = [
+  {
+    id: "01",
+    name: "first",
+    hmobile: "43%",
+    hdesktop: "50%",
+    translate: "translate-y-2.5 md:translate-y-8",
+    img:"/9.jpeg",
+    banner:"/b-1.jpeg",
+    description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Egestas purus viverra accumsan in nisl nisi Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque"
+  },
+  {
+    id: "02",
+    name: "first",
+    hmobile: "50%",
+    hdesktop: "60%",
+    translate: "-translate-y-15 md:-translate-y-14",
+    img:"/2.jpeg",
+    banner:"b-2.jpeg",
+    description:"first",
+  },
+  {
+    id: "03",
+    name: "first",
+    hmobile: "40%",
+    hdesktop: "50%",
+    translate: "translate-y-0 md:-translate-y-15",
+    img:"/3.jpeg",
+    banner:"b-3.jpeg",
+    description:"first",
+  },
+  {
+    id: "04",
+    name: "first",
+    hmobile: "57%",
+    hdesktop: "40%",
+    translate: "translate-y-2 md:translate-y-6",
+    img:"/4.jpeg",
+    banner:"/b-4.jpeg",
+    description:"first",
+  },
+  {
+    id: "05",
+    name: "first",
+    hmobile: "40%",
+    hdesktop: "50%",
+    translate: "-translate-y-7.5 md:-translate-y-18",
+    img:"/5.jpeg",
+    banner:"b-5.jpeg",
+    description:"first"
+  },
+  {
+    id: "06",
+    name: "first",
+    hmobile: "43%",
+    hdesktop: "45%",
+    translate: "translate-y-2.5 md:translate-y-10",
+    img:"/6.jpeg",
+    banner:"b-6.jpeg",
+    description:"first",
+  },
+  {
+    id: "07",
+    name: "first",
+    hmobile: "50%",
+    hdesktop: "50%",
+    translate: "-translate-y-15 md:-translate-y-10",
+    img:"/7.jpeg",
+    banner:"b-7.jpeg",
+    description:"first"
+  },
+  {
+    id: "08",
+    name: "first",
+    hmobile: "43%",
+    hdesktop: "50%",
+    translate: "translate-y-2.5 md:translate-y-8",
+    img:"/8.jpeg",
+    banner:"b-8.jpeg",
+    description:"first"
+  }
+];

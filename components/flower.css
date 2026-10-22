@@ -1,0 +1,48 @@
+.back-one,
+.back-two,
+.back-three,
+.back-four {
+  position: absolute;
+  top: 0;
+  animation: myAnimation 4s cubic-bezier(0.22, 1, 0.36, 1) both;
+  will-change: transform, opacity;
+}
+
+.back-one {
+  animation-delay: 0.1s;
+}
+
+.back-two {
+  animation-delay: 0.25s;
+}
+
+.back-three {
+  animation-delay: 0.4s;
+}
+
+.back-four {
+  animation-delay: 0.55s;
+}
+
+@keyframes myAnimation {
+  from {
+    transform: translateX(-60vw);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .back-one,
+  .back-two,
+  .back-three,
+  .back-four {
+    animation: none;
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

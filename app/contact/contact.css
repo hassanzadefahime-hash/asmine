@@ -1,0 +1,53 @@
+
+#system {
+    display: none;
+}
+
+#mobile {
+    display: block;
+}
+
+#myDIV{
+    animation: mymove 5s infinite;
+}
+
+/* جلوگیری از تغییر رنگ هنگام Autofill در Chrome */
+#system input:-webkit-autofill,
+#system input:-webkit-autofill:hover,
+#system input:-webkit-autofill:focus,
+#mobile input:-webkit-autofill,
+#mobile input:-webkit-autofill:hover,
+#mobile input:-webkit-autofill:focus {
+  -webkit-text-fill-color: #fff !important;
+  -webkit-box-shadow: 0 0 0 1000px #835361 inset !important;
+  box-shadow: 0 0 0 1000px #835361 inset !important;
+  transition: background-color 9999s ease-out 0s;
+  caret-color: #fff;
+}
+
+/* حذف ظاهر پیش‌فرض هنگام فوکوس */
+#system input:focus,
+#mobile input:focus {
+  outline: none;
+}
+
+@keyframes mymove {
+  50% {opacity: 0;}
+}
+
+
+@media (min-width: 1026px) {
+    #system {
+        display: block;
+
+    }
+
+    #mobile {
+        display: none;
+    }
+
+
+}
+
+
+
