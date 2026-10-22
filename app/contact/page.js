@@ -248,32 +248,36 @@ export default function contact() {
           </div>
           <div className=" h-[60vh] ">
             <div className="flex flex-row items-center justify-center ">
-              <div className="flex flex-col items-center justify-center">
-                <div className="w-[clamp(32vh,32vw,34vh)] aspect-square bg-[#90616E] rounded-full  flex justify-center items-center shadow-circle ">
-                  <div className="w-[clamp(24vh,24vw,27vh)] aspect-square bg-[#7D4F5D] rounded-full  flex justify-center items-center shadow-box">
-                    <input
-                      type="text"
-                      placeholder="Message..."
-                      className="h-full w-full z-20 rounded-full  px-1 rtl text-white   "
-                      onClick={() => onchange(2)}
-                      style={{ fontFamily: "arial" }}
-                    />
-                  </div>
-                  <svg
-                    className="w-[clamp(35vh,35vw,37vh)] absolute"
-                    viewBox="0 0 100 100"
-                  >
-                    <g className={state.loading[2] ? "spin-once" : ""}>
-                      <path
-                        d="M39.64,88.64 A40,40 0 0,1 50,10"
-                        fill="none"
-                        stroke="#9F6E7A"
-                        strokeWidth="10"
-                        strokeLinecap="round"
-                        className="shadow-whatch"
+              <div className="flex flex-col items-center justify-center gap-2">
+                <div className="flex flex-row items-center">
+                  <div className="w-[clamp(32vh,32vw,34vh)] aspect-square bg-[#90616E] rounded-full  flex justify-center items-center shadow-circle ">
+                    <div className="w-[clamp(24vh,24vw,27vh)] aspect-square bg-[#7D4F5D] rounded-full  flex justify-center items-center shadow-box">
+                      <input
+                        type="text"
+                        placeholder="Message..."
+                        className="h-full w-full z-20 rounded-full  px-1 rtl text-white   "
+                        onClick={() => onchange(2)}
+                        style={{ fontFamily: "arial" }}
                       />
-                    </g>
-                  </svg>
+                    </div>
+                    <svg
+                      className="w-[clamp(35vh,35vw,37vh)] absolute"
+                      viewBox="0 0 100 100"
+                    >
+                      <g className={state.loading[2] ? "spin-once" : ""}>
+                        <path
+                          d="M39.64,88.64 A40,40 0 0,1 50,10"
+                          fill="none"
+                          stroke="#9F6E7A"
+                          strokeWidth="10"
+                          strokeLinecap="round"
+                          className="shadow-whatch"
+                        />
+                      </g>
+                    </svg>
+                  </div>
+                  <div className="  bg-[url('/gol-contact-1.png')] w-[14vw] h-[14vw] bg-no-repeat bg-cover -translate-y-1/2"></div>
+
                 </div>
                 <div className="flex flex-row items-center justify-start   w-full transform rotate-14">
                   <div className="w-[clamp(11vh,11vw,11vh)] aspect-square bg-[#895967] rounded-full  flex justify-center items-center transform -rotate-14  shadow-circle">
@@ -315,7 +319,7 @@ export default function contact() {
                   <div className="w-[clamp(5vh,5vw,6vh)] aspect-square  bg-[#653b44] rounded-full shadow-circle  shadow-box flex justify-center items-center ">
                     <FaXTwitter className="text-xl" />
                   </div>
-                  <div className="  bg-[url('/gol-contact-1.png')] w-[14vw] h-[14vw] bg-no-repeat bg-cover -translate-y-1/2"></div>
+                  <div className="  bg-[url('/gol-contact-1.png')] w-[14vw] h-[14vw] bg-no-repeat bg-cover -translate-y-28 -translate-x-8"></div>
                 </div>
               </div>
             </div>
