@@ -198,7 +198,6 @@ export default function contact() {
                       placeholder="Email"
                       className="h-full w-full z-20 rounded-full px-1 rtl text-white"
                       onClick={() => onchange(0)}
-                      style={{ fontFamily: "arail" }}
                     />
                   </div>
                   <svg
