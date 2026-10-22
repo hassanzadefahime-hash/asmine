@@ -186,9 +186,9 @@ export default function contact() {
       </div>
 
       <div className="mobile" id="mobile">
-        <div className="flex flex-col justify-center items-center w-full h-screen">
+        <div className="flex flex-col justify-start items-center w-full h-screen mt-10">
           <div className="  flex  flex-col justify-center items-center ">
-            <div className="flex  items-cenetr  justify-center gap-1 ">
+            <div className="flex  items-cenetr  justify-center ">
               <div className="flex flex-col justify-end items-end">
               <div className="  bg-[url('/gol-contact-1.png')] w-[18vw] h-[18vw] bg-no-repeat bg-cover"></div>
                 <div className="w-[clamp(20vh,22vw,22vh)]  aspect-square bg-[#9C6975] rounded-full  flex  justify-center items-center translate-x-1/17 shadow-circle ">
@@ -250,9 +250,9 @@ export default function contact() {
               </div>
             </div>
           </div>
-          <div className=" h-[60vh] ">
+          <div className="">
             <div className="flex flex-row items-center justify-center ">
-              <div className="flex flex-col items-center justify-center gap-2">
+              <div className="flex flex-col items-center justify-center gap-1">
                 <div className="flex flex-row items-center">
                   <div className="w-[clamp(32vh,32vw,34vh)] aspect-square bg-[#90616E] rounded-full  flex justify-center items-center shadow-circle ">
                     <div className="w-[clamp(24vh,24vw,27vh)] aspect-square bg-[#7D4F5D] rounded-full  flex justify-center items-center shadow-box">
