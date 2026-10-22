@@ -65,7 +65,7 @@ export default function contact() {
                   <FaXTwitter className="text-2xl" />
                 </div>
               </div>
-              {/* <div className="  bg-[url('/gol-contact-1.png')] w-[7vw] h-[7vw] bg-no-repeat bg-cover -translate-x-1/2"></div> */}
+              <div className="  bg-[url('/gol-contact-1.png')] w-[10vw] h-[10vw] bg-no-repeat bg-cover "></div>
             </div>
           </div>
           <div className="flex flex-row items-center  h-full transform rotate-14 px-2">
