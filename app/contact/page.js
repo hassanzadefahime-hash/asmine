@@ -187,37 +187,40 @@ export default function contact() {
 
       <div className="mobile" id="mobile">
         <div className="flex flex-col justify-center items-center w-full h-screen">
-          <div className=" h-[24vh] flex flex-col justify-end items-center ">
-            <div className="flex   items-cenetr  justify-center gap-1">
-              <div className="w-[clamp(20vh,22vw,22vh)] aspect-square bg-[#9C6975] rounded-full  flex justify-center items-center translate-x-1/17 shadow-circle ">
-                <div className="w-[clamp(15vh,18vw,18vh)] aspect-square bg-[#895865] rounded-full flex justify-center items-center text-xs font-sans shadow-box">
-                  <input
-                    type="text"
-                    placeholder="Email"
-                    className="h-full w-full z-20 rounded-full px-1 rtl text-white"
-                    onClick={() => onchange(0)}
-                    style={{ fontFamily: "arail" }}
-                  />
-                </div>
-                <svg
-                  className="w-[clamp(22vh,25vw,25vh)] absolute"
-                  viewBox="0 0 100 100"
-                >
-                  <g className={state.loading[0] ? "spin-once" : ""}>
-                    <path
-                      d="M39.64,88.64 A40,40 0 0,1 50,10"
-                      fill="none"
-                      stroke="#AA7B87"
-                      strokeWidth="10"
-                      strokeLinecap="round"
-                      className="shadow-whatch"
+          <div className="  flex  flex-col justify-center items-center ">
+            <div className="flex  items-cenetr  justify-center gap-1 ">
+              <div className="flex flex-col justify-end items-end">
+              <div className="  bg-[url('/gol-contact-1.png')] w-[18vw] h-[18vw] bg-no-repeat bg-cover"></div>
+                <div className="w-[clamp(20vh,22vw,22vh)]  aspect-square bg-[#9C6975] rounded-full  flex  justify-center items-center translate-x-1/17 shadow-circle ">
+                  <div className="w-[clamp(15vh,18vw,18vh)] aspect-square bg-[#895865] rounded-full flex justify-center items-center text-xs font-sans shadow-box">
+                    <input
+                      type="text"
+                      placeholder="Email"
+                      className="h-full w-full z-20 rounded-full px-1 rtl text-white"
+                      onClick={() => onchange(0)}
+                      style={{ fontFamily: "arail" }}
                     />
-                  </g>
-                </svg>
+                  </div>
+                  <svg
+                    className="w-[clamp(22vh,25vw,25vh)] absolute"
+                    viewBox="0 0 100 100"
+                  >
+                    <g className={state.loading[0] ? "spin-once" : ""}>
+                      <path
+                        d="M39.64,88.64 A40,40 0 0,1 50,10"
+                        fill="none"
+                        stroke="#AA7B87"
+                        strokeWidth="10"
+                        strokeLinecap="round"
+                        className="shadow-whatch"
+                      />
+                    </g>
+                  </svg>
+                </div>
               </div>
 
-              <div className="flex flex-col">
-                <div className="w-[clamp(20vh,23vw,23vh)] aspect-square bg-[#966472]  rounded-full flex justify-center items-center -translate-y-1/3 shadow-circle">
+              <div className="flex flex-col items-start">
+                <div className="w-[clamp(20vh,23vw,23vh)] aspect-square bg-[#966472]  rounded-full flex justify-center items-center  shadow-circle">
                   <div className="w-[clamp(15vh,18vw,18vh)] aspect-square bg-[#835361] rounded-full flex justify-center items-center text-xs font-sans shadow-box">
                     <input
                       type="text"
@@ -243,6 +246,7 @@ export default function contact() {
                     </g>
                   </svg>
                 </div>
+                <div className="  bg-[url('/gol-contact-1.png')] w-[18vw] h-[18vw] bg-no-repeat bg-cover"></div>
               </div>
             </div>
           </div>
@@ -276,8 +280,6 @@ export default function contact() {
                       </g>
                     </svg>
                   </div>
-                  <div className="  bg-[url('/gol-contact-1.png')] w-[14vw] h-[14vw] bg-no-repeat bg-cover -translate-y-1/2"></div>
-
                 </div>
                 <div className="flex flex-row items-center justify-start   w-full transform rotate-14">
                   <div className="w-[clamp(11vh,11vw,11vh)] aspect-square bg-[#895967] rounded-full  flex justify-center items-center transform -rotate-14  shadow-circle">
@@ -305,8 +307,6 @@ export default function contact() {
                   </div>
                 </div>
                 <div className="flex gap-2 items-center">
-                  <div className="  bg-[url('/gol-contact-1.png')] w-[14vw] h-[14vw] bg-no-repeat bg-cover -translate-y-1/2"></div>
-
                   <div className="w-[clamp(5vh,5vw,6vh)] aspect-square  bg-[#653b44] rounded-full shadow-circle  shadow-box flex justify-center items-center ">
                     <FaLinkedinIn className="text-xl" />
                   </div>
@@ -319,7 +319,6 @@ export default function contact() {
                   <div className="w-[clamp(5vh,5vw,6vh)] aspect-square  bg-[#653b44] rounded-full shadow-circle  shadow-box flex justify-center items-center ">
                     <FaXTwitter className="text-xl" />
                   </div>
-                  <div className="  bg-[url('/gol-contact-1.png')] w-[14vw] h-[14vw] bg-no-repeat bg-cover -translate-y-28 -translate-x-8"></div>
                 </div>
               </div>
             </div>
