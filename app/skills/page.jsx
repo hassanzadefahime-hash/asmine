@@ -1,14 +1,9 @@
 import Image from "next/image";
-import {
-  FaGithub,
-  FaLinkedin,
-  FaRegEnvelope,
-  FaRegFile,
-} from "react-icons/fa6";
+
 const Skills = () => {
   return (
     <>
-      <div className="scroll-smooth flex flex-col justify-center items-center md:mt-18 mt-5 md:w-[75%] w-[90%] mx-auto gap-8">
+      <div className="scroll-smooth flex flex-col justify-center items-center md:mt-18 mt-7 md:w-[75%] w-[90%] mx-auto gap-8">
         <div className="min-h-60 w-full flex gap-4">
           <div className="md:w-[50%] w-[100%] rounded-xl shadow-[#9c6975]/15 md:px-0 px-4 pt-4 flex flex-col gap-3">
             <p className="text-4xl font-dancing text-shadow-lg/50 font-bold font-bold">
@@ -54,8 +49,6 @@ const Skills = () => {
               Building Skills For Future.
             </p>
           </div>
-
-         
         </div>
       </div>
     </>

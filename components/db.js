@@ -16,7 +16,7 @@ export const arr = [
     hdesktop: "60%",
     translate: "-translate-y-15 md:-translate-y-14",
     img:"/2.jpeg",
-    banner:"b-2.jpeg",
+    banner:"/b-2.jpeg",
     description:"first",
   },
   {
@@ -26,7 +26,7 @@ export const arr = [
     hdesktop: "50%",
     translate: "translate-y-0 md:-translate-y-15",
     img:"/3.jpeg",
-    banner:"b-3.jpeg",
+    banner:"/b-3.jpeg",
     description:"first",
   },
   {
@@ -46,7 +46,7 @@ export const arr = [
     hdesktop: "50%",
     translate: "-translate-y-7.5 md:-translate-y-18",
     img:"/5.jpeg",
-    banner:"b-5.jpeg",
+    banner:"/b-5.jpeg",
     description:"first"
   },
   {
@@ -56,7 +56,7 @@ export const arr = [
     hdesktop: "45%",
     translate: "translate-y-2.5 md:translate-y-10",
     img:"/6.jpeg",
-    banner:"b-6.jpeg",
+    banner:"/b-6.jpeg",
     description:"first",
   },
   {
@@ -66,7 +66,7 @@ export const arr = [
     hdesktop: "50%",
     translate: "-translate-y-15 md:-translate-y-10",
     img:"/7.jpeg",
-    banner:"b-7.jpeg",
+    banner:"/b-7.jpeg",
     description:"first"
   },
   {
@@ -76,7 +76,7 @@ export const arr = [
     hdesktop: "50%",
     translate: "translate-y-2.5 md:translate-y-8",
     img:"/8.jpeg",
-    banner:"b-8.jpeg",
+    banner:"/b-8.jpeg",
     description:"first"
   }
 ];

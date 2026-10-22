@@ -33,16 +33,22 @@ export default function contact() {
               >
                 <div>
                   <div className="flex gap-4">
-                  <p className="text-6xl font-dancing font-bold text-shadow-lg/50 font-bold">Let' s Talk</p>
-                  
+                    <p className="text-6xl font-dancing font-bold text-shadow-lg/50 font-bold">
+                      Let' s Talk
+                    </p>
+
                     {/* <p className="text-6xl font-dancing">Talk</p> */}
                     <div className="  bg-[url('/gol-contact-1.png')] w-[5vw] h-[5vw] bg-no-repeat bg-cover "></div>
                   </div>
                 </div>
                 <div className="border-2 w-16 border-red-100 text-shadow-lg/50 font-bold"></div>
                 <div>
-                  <p className="text-xl font-dancing text-shadow-lg/50 font-bold">Have a project in mind ?</p>
-                  <p className="text-xl font-dancing text-shadow-lg/50 font-bold">I' d love to hear from you .</p>
+                  <p className="text-xl font-dancing text-shadow-lg/50 font-bold">
+                    Have a project in mind ?
+                  </p>
+                  <p className="text-xl font-dancing text-shadow-lg/50 font-bold">
+                    I' d love to hear from you .
+                  </p>
                 </div>
               </div>
               <div className="flex gap-5">
@@ -171,7 +177,7 @@ export default function contact() {
                       strokeLinecap="round"
                       className="shadow-whatch"
                     />
-                  </g>  
+                  </g>
                 </svg>
               </div>
             </div>
@@ -182,7 +188,7 @@ export default function contact() {
       <div className="mobile" id="mobile">
         <div className="flex flex-col justify-center items-center w-full h-screen">
           <div className=" h-[24vh] flex flex-col justify-end items-center ">
-            <div className="flex   items-cenetr  justify-center">
+            <div className="flex   items-cenetr  justify-center gap-1">
               <div className="w-[clamp(20vh,22vw,22vh)] aspect-square bg-[#9C6975] rounded-full  flex justify-center items-center translate-x-1/17 shadow-circle ">
                 <div className="w-[clamp(15vh,18vw,18vh)] aspect-square bg-[#895865] rounded-full flex justify-center items-center text-xs font-sans shadow-box">
                   <input
@@ -270,9 +276,9 @@ export default function contact() {
                   </svg>
                 </div>
                 <div className="flex flex-row items-center justify-start   w-full transform rotate-14">
-                  <div className="w-[clamp(10vh,10vw,10vh)] aspect-square bg-[#895967] rounded-full  flex justify-center items-center transform -rotate-14  shadow-circle">
+                  <div className="w-[clamp(11vh,11vw,11vh)] aspect-square bg-[#895967] rounded-full  flex justify-center items-center transform -rotate-14  shadow-circle">
                     <div
-                      className="w-[clamp(8vh,8vw,8vh)] aspect-square bg-[#784B59] rounded-full flex justify-center items-center shadow-box"
+                      className="w-[clamp(7vh,7vw,7vh)] aspect-square bg-[#784B59] rounded-full flex justify-center items-center shadow-box"
                       style={{ fontFamily: "arial" }}
                     >
                       send
@@ -286,7 +292,7 @@ export default function contact() {
                           d="M39.64,88.64 A40,40 0 0,1 50,10"
                           fill="none"
                           stroke="#986775"
-                          strokeWidth="10"
+                          strokeWidth="16"
                           strokeLinecap="round"
                           className="shadow-whatch"
                         />
@@ -294,7 +300,9 @@ export default function contact() {
                     </svg>
                   </div>
                 </div>
-                <div className="flex gap-2">
+                <div className="flex gap-2 items-center">
+                  <div className="  bg-[url('/gol-contact-1.png')] w-[14vw] h-[14vw] bg-no-repeat bg-cover -translate-y-1/2"></div>
+
                   <div className="w-[clamp(5vh,5vw,6vh)] aspect-square  bg-[#653b44] rounded-full shadow-circle  shadow-box flex justify-center items-center ">
                     <FaLinkedinIn className="text-xl" />
                   </div>
@@ -307,6 +315,7 @@ export default function contact() {
                   <div className="w-[clamp(5vh,5vw,6vh)] aspect-square  bg-[#653b44] rounded-full shadow-circle  shadow-box flex justify-center items-center ">
                     <FaXTwitter className="text-xl" />
                   </div>
+                  <div className="  bg-[url('/gol-contact-1.png')] w-[14vw] h-[14vw] bg-no-repeat bg-cover -translate-y-1/2"></div>
                 </div>
               </div>
             </div>

@@ -12,10 +12,10 @@ export default function Home() {
           transition={{ duration: 2 }}
           className="flex flex-col justify-center items-center  leading-8"
         >
-          <p className="lg:text-9xl text-shadow-lg/50 text-2xl md:text-3xl font-dancing">
+          <p className="lg:text-9xl text-shadow-lg/50 text-6xl md:text-3xl font-dancing">
             Asmine
           </p>
-          <p className="lg:text-4xl text-shadow-lg/50 text-lg mt-4 font-dancing">
+          <p className="lg:text-4xl text-shadow-lg/50 text-xl mt-4 font-dancing">
             Designing with feeling
           </p>
         </motion.div>
