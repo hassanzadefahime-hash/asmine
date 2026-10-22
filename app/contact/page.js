@@ -187,10 +187,10 @@ export default function contact() {
 
       <div className="mobile" id="mobile">
         <div className="flex flex-col justify-start items-center w-full h-screen mt-10">
-          <div className="  flex  flex-col justify-center items-center ">
+          <div className="  flex  flex-col justify-center items-center">
             <div className="flex  items-cenetr  justify-center ">
               <div className="flex flex-col justify-end items-end">
-              <div className="  bg-[url('/gol-contact-1.png')] w-[18vw] h-[18vw] bg-no-repeat bg-cover"></div>
+                <div className="  bg-[url('/gol-contact-1.png')] w-[18vw] h-[18vw] bg-no-repeat bg-cover"></div>
                 <div className="w-[clamp(20vh,22vw,22vh)]  aspect-square bg-[#9C6975] rounded-full  flex  justify-center items-center translate-x-1/17 shadow-circle ">
                   <div className="w-[clamp(15vh,18vw,18vh)] aspect-square bg-[#895865] rounded-full flex justify-center items-center text-xs font-sans shadow-box">
                     <input
@@ -245,80 +245,80 @@ export default function contact() {
                     </g>
                   </svg>
                 </div>
-                <div className="  bg-[url('/gol-contact-1.png')] w-[18vw] h-[18vw] bg-no-repeat bg-cover"></div>
+                <div className="bg-[url('/gol-contact-1.png')] w-[18vw] h-[18vw] bg-no-repeat bg-cover"></div>
               </div>
             </div>
           </div>
-          <div className="">
-            <div className="flex flex-row items-center justify-center ">
-              <div className="flex flex-col items-center justify-center gap-1">
-                <div className="flex flex-row items-center">
-                  <div className="w-[clamp(32vh,32vw,34vh)] aspect-square bg-[#90616E] rounded-full  flex justify-center items-center shadow-circle ">
-                    <div className="w-[clamp(24vh,24vw,27vh)] aspect-square bg-[#7D4F5D] rounded-full  flex justify-center items-center shadow-box">
-                      <input
-                        type="text"
-                        placeholder="Message..."
-                        className="h-full w-full z-20 rounded-full  px-1 rtl text-white   "
-                        onClick={() => onchange(2)}
-                        style={{ fontFamily: "arial" }}
-                      />
-                    </div>
-                    <svg
-                      className="w-[clamp(35vh,35vw,37vh)] absolute"
-                      viewBox="0 0 100 100"
-                    >
-                      <g className={state.loading[2] ? "spin-once" : ""}>
-                        <path
-                          d="M39.64,88.64 A40,40 0 0,1 50,10"
-                          fill="none"
-                          stroke="#9F6E7A"
-                          strokeWidth="10"
-                          strokeLinecap="round"
-                          className="shadow-whatch"
-                        />
-                      </g>
-                    </svg>
-                  </div>
-                </div>
-                <div className="flex flex-row items-center justify-start   w-full transform rotate-14">
-                  <div className="w-[clamp(11vh,11vw,11vh)] aspect-square bg-[#895967] rounded-full  flex justify-center items-center transform -rotate-14  shadow-circle">
-                    <div
-                      className="w-[clamp(7vh,7vw,7vh)] aspect-square bg-[#784B59] rounded-full flex justify-center items-center shadow-box"
+          <div className="flex flex-row items-center justify-center ">
+            <div className="flex flex-col items-center justify-center gap-1">
+              <div className="flex flex-row items-center">
+                <div className="w-[clamp(32vh,32vw,34vh)] aspect-square bg-[#90616E] rounded-full  flex justify-center items-center shadow-circle ">
+                  <div className="w-[clamp(24vh,24vw,27vh)] aspect-square bg-[#7D4F5D] rounded-full  flex justify-center items-center shadow-box">
+                    <input
+                      type="text"
+                      placeholder="Message..."
+                      className="h-full w-full z-20 rounded-full  px-1 rtl text-white   "
+                      onClick={() => onchange(2)}
                       style={{ fontFamily: "arial" }}
-                    >
-                      send
-                    </div>
-                    <svg
-                      className="w-[clamp(11vh,11vw,11vh)] absolute"
-                      viewBox="0 0 100 100"
-                    >
-                      <g className={state.loading[3] ? "spin-once" : ""}>
-                        <path
-                          d="M39.64,88.64 A40,40 0 0,1 50,10"
-                          fill="none"
-                          stroke="#986775"
-                          strokeWidth="16"
-                          strokeLinecap="round"
-                          className="shadow-whatch"
-                        />
-                      </g>
-                    </svg>
+                    />
                   </div>
+                  <svg
+                    className="w-[clamp(35vh,35vw,37vh)] absolute"
+                    viewBox="0 0 100 100"
+                  >
+                    <g className={state.loading[2] ? "spin-once" : ""}>
+                      <path
+                        d="M39.64,88.64 A40,40 0 0,1 50,10"
+                        fill="none"
+                        stroke="#9F6E7A"
+                        strokeWidth="10"
+                        strokeLinecap="round"
+                        className="shadow-whatch"
+                      />
+                    </g>
+                  </svg>
                 </div>
-                <div className="flex gap-2 items-center">
-                  <div className="w-[clamp(5vh,5vw,6vh)] aspect-square  bg-[#653b44] rounded-full shadow-circle  shadow-box flex justify-center items-center ">
-                    <FaLinkedinIn className="text-xl" />
+              </div>
+              <div className="flex flex-row justify-between gap-6">
+              <div className="flex flex-row items-center justify-start transform rotate-14  w-full">
+                <div className="w-[clamp(11vh,11vw,11vh)] aspect-square bg-[#895967] rounded-full -translate-y-1/3 flex justify-center items-center transform -rotate-14  shadow-circle">
+                  <div
+                    className="w-[clamp(7vh,7vw,7vh)] aspect-square bg-[#784B59] rounded-full flex justify-center items-center shadow-box"
+                    style={{ fontFamily: "arial" }}
+                  >
+                    send
                   </div>
-                  <div className="w-[clamp(5vh,5vw,6vh)] aspect-square  bg-[#653b44] rounded-full shadow-circle  shadow-box flex justify-center items-center ">
-                    <FaInstagram className="text-xl" />
-                  </div>
-                  <div className="w-[clamp(5vh,5vw,6vh)] aspect-square  bg-[#653b44] rounded-full shadow-circle  shadow-box flex justify-center items-center ">
-                    <FaTelegram className="text-xl" />
-                  </div>
-                  <div className="w-[clamp(5vh,5vw,6vh)] aspect-square  bg-[#653b44] rounded-full shadow-circle  shadow-box flex justify-center items-center ">
-                    <FaXTwitter className="text-xl" />
-                  </div>
+                  <svg
+                    className="w-[clamp(11vh,11vw,11vh)] absolute"
+                    viewBox="0 0 100 100"
+                  >
+                    <g className={state.loading[3] ? "spin-once" : ""}>
+                      <path
+                        d="M39.64,88.64 A40,40 0 0,1 50,10"
+                        fill="none"
+                        stroke="#986775"
+                        strokeWidth="16"
+                        strokeLinecap="round"
+                        className="shadow-whatch"
+                      />
+                    </g>
+                  </svg>
                 </div>
+              </div>
+              <div className="flex gap-1 items-center">
+                <div className="w-[clamp(5vh,5vw,6vh)] aspect-square  bg-[#653b44] rounded-full shadow-circle  shadow-box flex justify-center items-center ">
+                  <FaLinkedinIn className="text-xl" />
+                </div>
+                <div className="w-[clamp(5vh,5vw,6vh)] aspect-square  bg-[#653b44] rounded-full shadow-circle  shadow-box flex justify-center items-center ">
+                  <FaInstagram className="text-xl" />
+                </div>
+                <div className="w-[clamp(5vh,5vw,6vh)] aspect-square  bg-[#653b44] rounded-full shadow-circle  shadow-box flex justify-center items-center ">
+                  <FaTelegram className="text-xl" />
+                </div>
+                <div className="w-[clamp(5vh,5vw,6vh)] aspect-square  bg-[#653b44] rounded-full shadow-circle  shadow-box flex justify-center items-center ">
+                  <FaXTwitter className="text-xl" />
+                </div>
+              </div>
               </div>
             </div>
           </div>
