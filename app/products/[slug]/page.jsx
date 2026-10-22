@@ -2,8 +2,6 @@
 import { useParams } from "next/navigation";
 import "./product.css";
 import { useState } from "react";
-import Image from "next/image";
-import { FaAngleLeft, FaAngleRight } from "react-icons/fa6";
 import { arr } from "../../../components/db.js";
 export default function BlogPostPage() {
   const { slug } = useParams();
@@ -94,7 +92,7 @@ export default function BlogPostPage() {
               </div>
               <div className="w-[clamp(2vh,2vw,3vh)] aspect-square bg-[#774a54]  shadow-circle  shadow-box  rounded-full  -translate-y-10/11"></div>
               <div className="w-[clamp(6vh,6vw,8vh)] aspect-square bg-[#774a54]  shadow-circle  shadow-box  rounded-full flex items-center justify-center">
-                <FaAngleLeft />
+                {/* <FaAngleLeft /> */}
               </div>
               <button
                 className="w-[clamp(10vh,10vw,12vh)] aspect-square bg-[#774a54]  shadow-circle  shadow-box  rounded-full flex items-center justify-center translate-y-1/10"
@@ -106,7 +104,7 @@ export default function BlogPostPage() {
                 </div>
               </button>
               <div className="w-[clamp(6vh,6vw,8vh)] aspect-square bg-[#774a54]  shadow-circle  shadow-box  rounded-full  flex items-center justify-center">
-                <FaAngleRight />
+                {/* <FaAngleRight /> */}
               </div>
               <div className="w-[clamp(2vh,2vw,3vh)] aspect-square bg-[#774a54]  shadow-circle  shadow-box  rounded-full -translate-y-10/11"></div>
               <div className="w-[clamp(4vh,4vw,6vh)] aspect-square rounded-full -translate-y-3/4">
@@ -135,10 +133,10 @@ export default function BlogPostPage() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col mobile  h-[100%] gap-10 items-center justify-around py-10  justify-between">
+      <div className="flex flex-col mobile  h-[100%] items-center py-8 gap-6">
         
           <div className=" flex items-center justify-center">
-            <span className="text-xl font-dancing text-amber-100 tracking-widest">
+            <span className="text-2xl font-dancing tracking-widest text-shadow-lg/50 font-bold ">
             {product.name}
             </span>
           </div>
@@ -178,7 +176,7 @@ export default function BlogPostPage() {
                       <div className="bg-[#00000076]  absolute inset-0"></div>
                     )}
                     {state && (
-                      <div className="text-white relative flex justify-center p-8 items-center text-center">
+                      <div className="text-white relative flex justify-center px-2 py-2 items-center text-center font-dancing tracking-widest text-shadow-lg/50 font-bold text-justify text-sm">
                         {product.description}
                       </div>
                     )}
@@ -203,7 +201,7 @@ export default function BlogPostPage() {
                 onClick={onChange}
                 style={{ fontFamily: "arial" }}
               >
-                <div className="w-[clamp(8vh,8vw,10vh)] aspect-square bg-[#3a1d24] rounded-full flex items-center justify-center">
+                <div className="w-[clamp(8vh,8vw,10vh)] aspect-square bg-[#3a1d24] rounded-full flex items-center justify-center text-shadow-lg/50 font-bold font-dancing ">
                   Info
                 </div>
               </button>
