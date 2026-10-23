@@ -13,7 +13,7 @@ const Skills = () => {
               UI/UX & Graphic Designer
             </p>
             <div className="border-b border-white w-[100%] bg-red-900"></div>
-            <p className="justify-content text-shadow-lg/50 font-bold text-justify font-signature font-bold md:text-xl text-lg md:leading-12 leading-8 tracking-wide">
+            <p className="justify-content text-shadow-lg/50 font-bold text-justify font-signature md:text-xl text-lg md:leading-12 leading-8 tracking-wide">
               I'm Olivia Bennett, a passionate UI/UX and Graphic Designer
               skilled in Figma, Adobe Illustrator, and Photoshop. I enjoy
               creating modern, elegant, and user-friendly designs that blend

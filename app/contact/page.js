@@ -68,7 +68,8 @@ export default function contact() {
               <div className="  bg-[url('/gol-contact-1.png')] w-[10vw] h-[10vw] bg-no-repeat bg-cover "></div>
             </div>
           </div>
-          <div className="flex flex-row items-center  h-full transform rotate-14 px-2">
+          <div className="relative flex flex-col justify-center items-center  h-full transform rotate-14 px-1">
+            
             <div className="w-[clamp(16vh,16vw,32vh)] aspect-square bg-[#9C6975] shadow-circle rounded-full -translate-y-4/5 flex justify-center items-center  ">
               <div className="w-[clamp(11vh,11vw,22vh)] aspect-square bg-[#895865] rounded-full shadow-box flex justify-center items-center">
                 <input
@@ -95,9 +96,14 @@ export default function contact() {
                 </g>
               </svg>
             </div>
+            <div className="absolute bg-[url('/gol-contact-1.png')] w-[clamp(10vh,10vw,18vh)] aspect-square bg-no-repeat bg-cover translate-1/3 -rotate-15"></div>
+
           </div>
-          <div className="flex flex-row items-center  h-full ">
-            <div className="w-[clamp(17vh,17vw,32vh)] aspect-square bg-[#966472] rounded-full shadow-circle flex justify-center items-center -translate-y-1/6">
+          <div className="flex flex-col justify-center items-center h-full relative">
+            <div className=" -translate-y-1/6">
+          {/* <div className="absolute bg-[url('/gol-contact-1.png')] w-[clamp(14vh,14vw,14vh)] aspect-square bg-no-repeat bg-cover top-0 translate-1/2"></div> */}
+
+            <div className="w-[clamp(17vh,17vw,32vh)] aspect-square bg-[#966472] rounded-full shadow-circle flex justify-center items-center">
               <div className="w-[clamp(12vh,12vw,22vh)] aspect-square bg-[#835361] shadow-box rounded-full flex justify-center items-center">
                 <input
                   type="text"
@@ -124,11 +130,12 @@ export default function contact() {
                 </g>
               </svg>
             </div>
+            </div>
           </div>
 
-          <div className="flex flex-row items-center h-full  transform rotate-40 ">
-            <div className="w-[clamp(30vh,30vw,45vh)] aspect-square bg-[#895967] shadow-circle rounded-full  flex justify-center items-center">
-              <div className="w-[clamp(25vh,25vw,35vh)] aspect-square bg-[#784B59] shadow-box rounded-full flex justify-center items-center">
+          <div className="flex flex-row items-center h-full  transform rotate-40">
+            <div className="w-[clamp(30vh,45vw,45vh)] aspect-square bg-[#895967] shadow-circle rounded-full  flex justify-center items-center">
+              <div className="w-[clamp(25vh,35vw,35vh)] aspect-square bg-[#784B59] shadow-box rounded-full flex justify-center items-center">
                 <input
                   className="w-full h-full rounded-full  resize-none overflow-y-scroll px-4
            [scrollbar-width:none] [&::-webkit-scrollbar]:hidden  z-20 transform -rotate-40"
@@ -138,7 +145,7 @@ export default function contact() {
                 />
               </div>
               <svg
-                className="w-[clamp(32vh,32vw,50vh)] absolute pointer-events-none"
+                className="w-[clamp(32vh,50vw,50vh)] absolute pointer-events-none"
                 viewBox="0 0 100 100"
               >
                 <g className={state.loading[2] ? "spin-once" : ""}>
@@ -190,9 +197,9 @@ export default function contact() {
           <div className="  flex  flex-col justify-center items-center">
             <div className="flex  items-cenetr  justify-center ">
               <div className="flex flex-col justify-end items-end">
-                <div className="  bg-[url('/gol-contact-1.png')] w-[18vw] h-[18vw] bg-no-repeat bg-cover"></div>
-                <div className="w-[clamp(20vh,22vw,22vh)]  aspect-square bg-[#9C6975] rounded-full  flex  justify-center items-center translate-x-1/17 shadow-circle ">
-                  <div className="w-[clamp(15vh,18vw,18vh)] aspect-square bg-[#895865] rounded-full flex justify-center items-center text-xs font-sans shadow-box">
+              <div className="bg-[url('/gol-contact-1.png')] size-[clamp(11vh,11vw,11vh)] bg-no-repeat bg-cover"></div>
+                <div className="w-[clamp(20vh,23vw,23vh)]  aspect-square bg-[#9C6975] rounded-full  flex  justify-center items-center translate-x-1/17 shadow-circle ">
+                  <div className="w-[clamp(15vh,17vw,17vh)] aspect-square bg-[#895865] rounded-full flex justify-center items-center text-xs font-sans shadow-box">
                     <input
                       type="text"
                       placeholder="Email"
@@ -220,7 +227,7 @@ export default function contact() {
 
               <div className="flex flex-col items-start">
                 <div className="w-[clamp(20vh,23vw,23vh)] aspect-square bg-[#966472]  rounded-full flex justify-center items-center  shadow-circle">
-                  <div className="w-[clamp(15vh,18vw,18vh)] aspect-square bg-[#835361] rounded-full flex justify-center items-center text-xs font-sans shadow-box">
+                  <div className="w-[clamp(15vh,17vw,17vh)] aspect-square bg-[#835361] rounded-full flex justify-center items-center text-xs font-sans shadow-box">
                     <input
                       type="text"
                       placeholder="Name"
@@ -245,15 +252,15 @@ export default function contact() {
                     </g>
                   </svg>
                 </div>
-                <div className="bg-[url('/gol-contact-1.png')] w-[18vw] h-[18vw] bg-no-repeat bg-cover"></div>
+                <div className="bg-[url('/gol-contact-1.png')] size-[clamp(11vh,11vw,11vh)] bg-no-repeat bg-cover"></div>
               </div>
             </div>
           </div>
           <div className="flex flex-row items-center justify-center ">
             <div className="flex flex-col items-center justify-center gap-1">
               <div className="flex flex-row items-center">
-                <div className="w-[clamp(32vh,32vw,34vh)] aspect-square bg-[#90616E] rounded-full  flex justify-center items-center shadow-circle ">
-                  <div className="w-[clamp(24vh,24vw,27vh)] aspect-square bg-[#7D4F5D] rounded-full  flex justify-center items-center shadow-box">
+                <div className="w-[clamp(32vh,34vw,34vh)] aspect-square bg-[#90616E] rounded-full  flex justify-center items-center shadow-circle ">
+                  <div className="w-[clamp(24vh,26vw,26vh)] aspect-square bg-[#7D4F5D] rounded-full  flex justify-center items-center shadow-box">
                     <input
                       type="text"
                       placeholder="Message..."
@@ -263,7 +270,7 @@ export default function contact() {
                     />
                   </div>
                   <svg
-                    className="w-[clamp(35vh,35vw,37vh)] absolute"
+                    className="w-[clamp(35vh,37vw,37vh)] absolute"
                     viewBox="0 0 100 100"
                   >
                     <g className={state.loading[2] ? "spin-once" : ""}>
