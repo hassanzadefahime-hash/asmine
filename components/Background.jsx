@@ -17,7 +17,7 @@ export default function Background() {
         <div
           className={`
             absolute inset-0
-            bg-[url('/flower.png')]
+            bg-[url('/flower.webp')]
             bg-size-[clamp(50vh,60vw,82vh)_auto]
             lg:bg-position-[top_right_-12rem]
             md:bg-position-[center_right_-11rem]
