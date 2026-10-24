@@ -3,6 +3,7 @@ import "./flower.css";
 import { FaBriefcase } from "react-icons/fa";
 import {  FaPhoneFlip } from "react-icons/fa6";
 import { IoPersonSharp } from "react-icons/io5";
+
 const Flower = () => {
   return (
     <div className="w-full min-h-10 md:min-h-12 lg:min-h-14 relative ">
@@ -25,8 +26,8 @@ const Flower = () => {
       <Link href="/">
         <div className="back-four h-full hover:bg-[#A97783] transition duration-300 ease-in-out w-1/5 md:w-1/7 bg-[#B2818D]  absolute rounded-r-full shadow-lg flex justify-end   items-center md:pr-5 pr-0">
           <img
-            src="/logo-flower.svg"
-            alt="logo-flowe"
+            src="/images/decoration/logo-flower.svg"
+            alt="logo-flower"
             className="h-full object-contain"
           />
         </div>

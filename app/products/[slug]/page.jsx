@@ -2,7 +2,8 @@
 import { useParams } from "next/navigation";
 import "./product.css";
 import { useState } from "react";
-import { arr } from "../../../components/db.js";
+import { arr } from "../../../data/projects";
+import ProjectArtwork from "@/components/products/ProjectArtwork";
 export default function BlogPostPage() {
   const { slug } = useParams();
 
@@ -23,11 +24,11 @@ export default function BlogPostPage() {
             </div>
 
             <div className="w-[clamp(15vh,15vw,16vh)] aspect-square rounded-full -translate-y-8/12">
-              <div className="  bg-[url('/gol-contact-1.png')] w-full h-full bg-no-repeat bg-cover  "></div>
+              <div className="  bg-[url('/images/decoration/gol-contact-1.png')] w-full h-full bg-no-repeat bg-cover  "></div>
             </div>
             <div className="w-[clamp(6vh,6vw,8vh)] aspect-square bg-[#774a54]  shadow-circle  shadow-box  rounded-full -translate-x-1/2 translate-y-1/3"></div>
             <div className="w-[clamp(10vh,10vw,12vh)] aspect-square rounded-full">
-              <div className="  bg-[url('/gol-contact-1.png')] w-full h-full bg-no-repeat bg-cover  "></div>
+              <div className="  bg-[url('/images/decoration/gol-contact-1.png')] w-full h-full bg-no-repeat bg-cover  "></div>
             </div>
             <div className="w-[clamp(4vh,4vw,6vh)] aspect-square bg-[#774a54]  shadow-circle  shadow-box  rounded-full translate-y-11/12"></div>
             <div className=" px-[1vw] ">
@@ -61,26 +62,7 @@ export default function BlogPostPage() {
 
                 <div className="h-4/7 w-full  rounded-3xl absolute top-0">
                   <div className="relative w-full h-full rounded-3xl overflow-hidden">
-                    <div
-                      className={`absolute inset-0  bg-no-repeat transition-all duration-300 ${
-                        state ? "blur-pic scale-110" : ""
-                      }`}
-                      style={{
-                        backgroundImage: product?.img
-                          ? `url("${product.img}")`
-                          : "none",
-                        backgroundSize: "cover",
-                        backgroundPosition: "center",
-                      }}
-                    />
-                    {state && (
-                      <div className="bg-[#00000076]  absolute inset-0"></div>
-                    )}
-                    {state && (
-                      <div className="text-white relative flex text-shadow-lg/50 font-bold justify-center p-8 items-center text-center font-dancing text-xl text-justify">
-                        {product.description}
-                      </div>
-                    )}
+                  <ProjectArtwork product={product} showInfo={state} />
                   </div>
                 </div>
               </div>
@@ -88,7 +70,7 @@ export default function BlogPostPage() {
             <div className=" flex flex-row justify-between items-center h-[20vh]">
               <div className="w-[clamp(2vh,2vw,2vh)] aspect-square bg-[#774a54]  shadow-circle  shadow-box  rounded-full -translate-y-14"></div>
               <div className="w-[clamp(4vh,4vw,6vh)] aspect-square rounded-full -translate-y-3/4">
-                <div className="  bg-[url('/gol-contact-1.png')] w-full h-full bg-no-repeat bg-cover  "></div>
+                <div className="  bg-[url('/images/decoration/gol-contact-1.png')] w-full h-full bg-no-repeat bg-cover  "></div>
               </div>
               <div className="w-[clamp(2vh,2vw,3vh)] aspect-square bg-[#774a54]  shadow-circle  shadow-box  rounded-full  -translate-y-10/11"></div>
               <div className="w-[clamp(6vh,6vw,8vh)] aspect-square bg-[#774a54]  shadow-circle  shadow-box  rounded-full flex items-center justify-center">
@@ -108,7 +90,7 @@ export default function BlogPostPage() {
               </div>
               <div className="w-[clamp(2vh,2vw,3vh)] aspect-square bg-[#774a54]  shadow-circle  shadow-box  rounded-full -translate-y-10/11"></div>
               <div className="w-[clamp(4vh,4vw,6vh)] aspect-square rounded-full -translate-y-3/4">
-                <div className="  bg-[url('/gol-contact-1.png')] w-full h-full bg-no-repeat bg-cover  "></div>
+                <div className="  bg-[url('/images/decoration/gol-contact-1.png')] w-full h-full bg-no-repeat bg-cover  "></div>
               </div>
               <div className="w-[clamp(2vh,2vw,2vh)] aspect-square bg-[#774a54]  shadow-circle  shadow-box  rounded-full  -translate-y-14"></div>
             </div>
@@ -121,11 +103,11 @@ export default function BlogPostPage() {
 
             <div className="w-[clamp(4vh,4vw,6vh)] aspect-square bg-[#774a54]  shadow-circle  shadow-box  rounded-full translate-y-11/12"></div>
             <div className="w-[clamp(10vh,10vw,12vh)] aspect-square rounded-full">
-              <div className="  bg-[url('/gol-contact-1.png')] w-full h-full bg-no-repeat bg-cover  "></div>
+              <div className="  bg-[url('/images/decoration/gol-contact-1.png')] w-full h-full bg-no-repeat bg-cover  "></div>
             </div>
             <div className="w-[clamp(6vh,6vw,8vh)] aspect-square bg-[#774a54]  shadow-circle  shadow-box  rounded-full translate-x-1/2 translate-y-1/3"></div>
             <div className="w-[clamp(15vh,15vw,16vh)] aspect-square rounded-full -translate-y-8/12">
-              <div className="  bg-[url('/gol-contact-1.png')] w-full h-full bg-no-repeat bg-cover  "></div>
+              <div className="  bg-[url('/images/decoration/gol-contact-1.png')] w-full h-full bg-no-repeat bg-cover  "></div>
             </div>
             <div className="flex items-start   h-[30vw] ">
               <div className="w-[clamp(2vh,2vw,4vh)] aspect-square bg-[#774a54]  shadow-circle  shadow-box  rounded-full "></div>
@@ -160,26 +142,7 @@ export default function BlogPostPage() {
 
                 <div className="h-4/7 w-full  rounded-3xl absolute top-0">
                   <div className="relative w-full h-full rounded-3xl overflow-hidden">
-                    <div
-                      className={`absolute inset-0  bg-no-repeat transition-all duration-300 ${
-                        state ? "blur-pic scale-110" : ""
-                      }`}
-                      style={{
-                        backgroundImage: product?.img
-                          ? `url("${product.img}")`
-                          : "none",
-                        backgroundSize: "cover",
-                        backgroundPosition: "center",
-                      }}
-                    />
-                    {state && (
-                      <div className="bg-[#00000076]  absolute inset-0"></div>
-                    )}
-                    {state && (
-                      <div className="text-white relative flex justify-center px-2 py-2 items-center text-center font-dancing tracking-widest text-shadow-lg/50 font-bold text-justify text-sm">
-                        {product.description}
-                      </div>
-                    )}
+                  <ProjectArtwork product={product} showInfo={state} mobile />
                   </div>
                 </div>
               </div>
@@ -190,7 +153,7 @@ export default function BlogPostPage() {
               <div className="w-[clamp(2vh,2vw,2vh)] aspect-square bg-[#774a54]  shadow-circle  shadow-box  rounded-full "></div>
             </div>
             <div className="w-[clamp(4vh,4vw,6vh)] aspect-square rounded-full -translate-y-1/4">
-              <div className="  bg-[url('/gol-contact-1.png')] w-full h-full bg-no-repeat bg-cover  "></div>
+              <div className="  bg-[url('/images/decoration/gol-contact-1.png')] w-full h-full bg-no-repeat bg-cover  "></div>
             </div>
             <div className="w-[clamp(2vh,2vw,2vh)] aspect-square bg-[#774a54]  shadow-circle  shadow-box  rounded-full -translate-y-7/8"></div>
             <div className="w-[clamp(6vh,6vw,7vh)] aspect-square bg-[#774a54]  shadow-circle  shadow-box  rounded-full flex items-center justify-center translate-y-2/3">
@@ -209,7 +172,7 @@ export default function BlogPostPage() {
             </div>
             <div className="w-[clamp(2vh,2vw,2vh)] aspect-square bg-[#774a54]  shadow-circle  shadow-box  rounded-full -translate-y-11/12"></div>
             <div className="w-[clamp(4vh,4vw,6vh)] aspect-square rounded-full -translate-y-1/4">
-              <div className="  bg-[url('/gol-contact-1.png')] w-full h-full bg-no-repeat bg-cover  "></div>
+              <div className="  bg-[url('/images/decoration/gol-contact-1.png')] w-full h-full bg-no-repeat bg-cover  "></div>
             </div>
             <div className="h-full">
               <div className="w-[clamp(2vh,2vw,2vh)] aspect-square bg-[#774a54]  shadow-circle  shadow-box  rounded-full "></div>

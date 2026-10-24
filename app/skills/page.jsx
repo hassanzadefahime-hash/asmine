@@ -22,7 +22,7 @@ const Skills = () => {
             <div className="flex gap-4 mt-10">
               <div className="">
                 <Image
-                  src="/figma.svg"
+                  src="/icons/figma.svg"
                   width={40}
                   height={40}
                   alt="Picture of the author"
@@ -30,7 +30,7 @@ const Skills = () => {
               </div>
               <div className="">
                 <Image
-                  src="/adobe-illustrato.svg"
+                  src="/icons/adobe-illustrato.svg"
                   width={40}
                   height={40}
                   alt="Picture of the author"
@@ -38,7 +38,7 @@ const Skills = () => {
               </div>
               <div className="">
                 <Image
-                  src="/photoshop.svg"
+                  src="/icons/photoshop.svg"
                   width={40}
                   height={40}
                   alt="Picture of the author"

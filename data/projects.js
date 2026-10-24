@@ -1,0 +1,85 @@
+export const arr = [
+    {
+      id: "01",
+      name: "Blush Identity",
+      hmobile: "43%",
+      hdesktop: "50%",
+      translate: "translate-y-2.5 md:translate-y-8",
+      img:"/images/projects/9.webp",
+      banner:"/images/projects/b-9.webp",
+      description:"A soft visual identity inspired by elegance, color, and minimalism."
+    },
+    {
+      id: "02",
+      name: "Floral Dreams",
+      hmobile: "50%",
+      hdesktop: "60%",
+      translate: "-translate-y-15 md:-translate-y-14",
+      img:"/images/projects/2.webp",
+      banner:"/images/projects/b-2.webp",
+      description:"A delicate design concept inspired by the beauty and elegance of nature.",
+    },
+    {
+      id: "03",
+      name: "Visual Poetry",
+      hmobile: "40%",
+      hdesktop: "50%",
+      translate: "translate-y-0 md:-translate-y-15",
+      img:"/images/projects/3.webp",
+      banner:"/images/projects/b-3.webp",
+      description: "An expressive composition blending typography, creativity, and visual storytelling.",
+  
+    },
+    {
+      id: "04",
+      name: "Modern Muse",
+      hmobile: "57%",
+      hdesktop: "40%",
+      translate: "translate-y-2 md:translate-y-6",
+      img:"/images/projects/4.webp",
+      banner:"/images/projects/b-4.webp",
+      description:"A contemporary design exploring balance, form, and creative expression.",
+    },
+    {
+      id: "05",
+      name: "Rose Essence",
+      hmobile: "40%",
+      hdesktop: "50%",
+      translate: "-translate-y-7.5 md:-translate-y-18",
+      img:"/images/projects/5.webp",
+      banner:"/images/projects/b-5.webp",
+      description:"A refined visual concept built around warm tones, soft textures, and timeless beauty.",
+  
+    },
+    {
+      id: "06",
+      name: "Creative Flow",
+      hmobile: "43%",
+      hdesktop: "45%",
+      translate: "translate-y-2.5 md:translate-y-10",
+      img:"/images/projects/6.webp",
+      banner:"/images/projects/b-6.webp",
+      description:"A refined visual concept built around warm tones, soft textures, and timeless beauty."
+    },
+    {
+      id: "07",
+      name: "Silent Bloom",
+      hmobile: "50%",
+      hdesktop: "50%",
+      translate: "-translate-y-15 md:-translate-y-10",
+      img:"/images/projects/7.webp",
+      banner:"/images/projects/b-7.webp",
+      description:"A minimal visual story capturing the beauty of nature through simplicity.",
+    },
+    {
+      id: "08",
+      name: "Beyond Form",
+      hmobile: "43%",
+      hdesktop: "50%",
+      translate: "translate-y-2.5 md:translate-y-8",
+      img:"/images/projects/8.webp",
+      banner:"/images/projects/b-8.webp",
+      description:"An experimental design that transforms simple forms into bold visual experiences.",
+    }
+  ];
+  

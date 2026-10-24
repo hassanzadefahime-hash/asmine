@@ -4,10 +4,6 @@
 
 @import "tailwind-animate";
 
-.font-bank {
-  font-family: var(--font-bank-gothic), sans-serif;
-}
-
 .font-signature {
   font-family: var(--font-brittany-signature), cursive;
 }

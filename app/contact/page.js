@@ -38,7 +38,7 @@ export default function contact() {
                     </p>
 
                     {/* <p className="text-6xl font-dancing">Talk</p> */}
-                    <div className="  bg-[url('/gol-contact-1.png')] w-[5vw] h-[5vw] bg-no-repeat bg-cover "></div>
+                    <div className="  bg-[url('/images/decoration/gol-contact-1.png')] w-[5vw] h-[5vw] bg-no-repeat bg-cover "></div>
                   </div>
                 </div>
                 <div className="border-2 w-16 border-red-100 text-shadow-lg/50 font-bold"></div>
@@ -65,7 +65,7 @@ export default function contact() {
                   <FaXTwitter className="text-2xl" />
                 </div>
               </div>
-              <div className="  bg-[url('/gol-contact-1.png')] w-[10vw] h-[10vw] bg-no-repeat bg-cover "></div>
+              <div className="  bg-[url('/images/decoration/gol-contact-1.png')] w-[10vw] h-[10vw] bg-no-repeat bg-cover "></div>
             </div>
           </div>
           <div className="relative flex flex-col justify-center items-center  h-full transform rotate-14 px-1">
@@ -96,7 +96,7 @@ export default function contact() {
                 </g>
               </svg>
             </div>
-            <div className="absolute bg-[url('/gol-contact-1.png')] w-[clamp(10vh,10vw,18vh)] aspect-square bg-no-repeat bg-cover translate-1/3 -rotate-15"></div>
+            <div className="absolute bg-[url('/images/decoration/gol-contact-1.png')] w-[clamp(10vh,10vw,18vh)] aspect-square bg-no-repeat bg-cover translate-1/3 -rotate-15"></div>
 
           </div>
           <div className="flex flex-col justify-center items-center h-full relative">
@@ -197,7 +197,7 @@ export default function contact() {
           <div className="  flex  flex-col justify-center items-center">
             <div className="flex  items-cenetr  justify-center ">
               <div className="flex flex-col justify-end items-end">
-              <div className="bg-[url('/gol-contact-1.png')] size-[clamp(11vh,11vw,11vh)] bg-no-repeat bg-cover"></div>
+              <div className="bg-[url('/images/decoration/gol-contact-1.png')] size-[clamp(11vh,11vw,11vh)] bg-no-repeat bg-cover"></div>
                 <div className="w-[clamp(20vh,23vw,23vh)]  aspect-square bg-[#9C6975] rounded-full  flex  justify-center items-center translate-x-1/17 shadow-circle ">
                   <div className="w-[clamp(15vh,17vw,17vh)] aspect-square bg-[#895865] rounded-full flex justify-center items-center text-xs font-sans shadow-box">
                     <input
@@ -252,7 +252,7 @@ export default function contact() {
                     </g>
                   </svg>
                 </div>
-                <div className="bg-[url('/gol-contact-1.png')] size-[clamp(11vh,11vw,11vh)] bg-no-repeat bg-cover"></div>
+                <div className="bg-[url('/images/decoration/gol-contact-1.png')] size-[clamp(11vh,11vw,11vh)] bg-no-repeat bg-cover"></div>
               </div>
             </div>
           </div>
